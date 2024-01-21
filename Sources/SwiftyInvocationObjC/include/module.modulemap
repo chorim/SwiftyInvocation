@@ -1,0 +1,4 @@
+module SwiftyInvocationObjC {
+    umbrella header "SwiftyInvocationObjC.h"
+    export *
+}

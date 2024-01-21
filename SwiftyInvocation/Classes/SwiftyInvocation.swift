@@ -6,9 +6,11 @@
 //
 //
 
+import ObjectiveC
+@_exported import SwiftyInvocationObjC
+
 enum SwiftyInvocationError: Error {
     case noMethod
-    case noImplementation
 }
 
 /// Function for getting implementation from obj-c object.
@@ -17,7 +19,7 @@ enum SwiftyInvocationError: Error {
 ///
 ///     let selector = Selector(("privateObjectAtIndex:"))
 ///     typealias Type = @convention(c) (AnyObject, Selector, Int) -> Unmanaged<AnyObject>
-///     let implementation = swift_getImplementation(object: object, selector: selector, type: Type.self)
+///     let implementation = swift_getImplementation(object: object, selector: selector, implType: Type.self)
 ///     let result = implementation(object, selector, argument).takeUnretainedValue()
 ///     // If result is scalar:
 ///     // let resultAsInt = unsafeBitCast(result, to: Int.self)
@@ -25,14 +27,12 @@ enum SwiftyInvocationError: Error {
 /// - Parameters:
 ///   - object: The object of which you want to retrieve the implementation.
 ///   - selector: The selector of which you want to retrieve the implementation.
-///   - type: The implementation type in @convention (c)
+///   - implType: The implementation type in @convention (c)
 /// - Returns: The implementation
-public func swift_getImplementation<T>(object: AnyObject, selector: Selector, type: T.Type) throws -> T {
+public func swift_getImplementation<T>(object: AnyObject, selector: Selector, implType: T.Type) throws -> T {
     guard let method = class_getInstanceMethod(type(of: object), selector) else {
         throw SwiftyInvocationError.noMethod
     }
-    guard let implementation = method_getImplementation(method) else {
-        throw SwiftyInvocationError.noImplementation
-    }
+    let implementation = method_getImplementation(method)
     return unsafeBitCast(implementation, to: T.self)
 }

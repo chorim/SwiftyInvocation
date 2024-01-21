@@ -6,9 +6,17 @@
 //
 //
 
+#import <Foundation/Foundation.h>
+
+@class SIMethodSignature;
+
+NS_ASSUME_NONNULL_BEGIN
+
 @interface SIMethodSignature ()
 
 @property (readonly, nonatomic) NSMethodSignature *underlyingMethodSignature;
 - (instancetype)initWithMethodSignature:(NSMethodSignature *)methodSignature;
 
 @end
+
+NS_ASSUME_NONNULL_END
