@@ -10,10 +10,11 @@
 #endif
 #endif
 
+#import "NSObject+SwiftyInvocation.h"
+#import "SIInvocation.h"
+#import "SIMethodSignature.h"
+#import "SIMethodSignature_Private.h"
 
 FOUNDATION_EXPORT double SwiftyInvocationVersionNumber;
 FOUNDATION_EXPORT const unsigned char SwiftyInvocationVersionString[];
 
-#import <SwiftyInvocation/SIInvocation.h>
-#import <SwiftyInvocation/SIMethodSignature.h>
-#import <SwiftyInvocation/NSObject+SwiftyInvocation.h>

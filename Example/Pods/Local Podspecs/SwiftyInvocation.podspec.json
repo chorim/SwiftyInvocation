@@ -1,22 +1,23 @@
 {
   "name": "SwiftyInvocation",
   "version": "0.1.0",
-  "summary": "A short description of SwiftyInvocation.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/piotr-tobolski/SwiftyInvocation",
+  "summary": "NSInvocation for Swift + helpers",
+  "description": "Have you ever dreamed about using NSInvocation from Swift code?\nYou hate Apple for the NS_SWIFT_UNAVAILABLE macro?\n\nMe neither.\n\nBut sometimes we just HAVE to use it. And here it is.",
+  "homepage": "https://github.com/chorim/SwiftyInvocation",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "piotr-tobolski": "piotr.tobolski@intive.com"
+    "insu-byeon": "me@byeon.is"
   },
   "source": {
-    "git": "https://github.com/piotr-tobolski/SwiftyInvocation.git",
+    "git": "https://github.com/chorim/SwiftyInvocation.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "SwiftyInvocation/Classes/**/*"
+  "source_files": "SwiftyInvocation/Classes/**/*",
+  "frameworks": "Foundation"
 }

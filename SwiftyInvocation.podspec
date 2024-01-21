@@ -12,13 +12,12 @@ Me neither.
 But sometimes we just HAVE to use it. And here it is.
                        DESC
 
-  s.homepage         = 'https://github.com/piotr-tobolski/SwiftyInvocation'
+  s.homepage         = 'https://github.com/chorim/SwiftyInvocation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'piotr-tobolski' => 'piotr.tobolski@me.com' }
-  s.source           = { :git => 'https://github.com/piotr-tobolski/SwiftyInvocation.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/piotrtobolski'
+  s.author           = { 'insu-byeon' => 'me@byeon.is' }
+  s.source           = { :git => 'https://github.com/chorim/SwiftyInvocation.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SwiftyInvocation/Classes/**/*'
 
