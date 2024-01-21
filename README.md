@@ -3,7 +3,7 @@
 [![CI Status](https://github.com/chorim/SwiftyInvocation/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/chorim/SwiftyInvocation/actions)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftyInvocation.svg)](https://cocoapods.org/pods/SwiftyInvocation)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Swift Package Manager compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://www.swift.org/package-manager/)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg?style=flat)](https://www.swift.org/package-manager/)
 [![Twitter](https://img.shields.io/badge/twitter-@piotrtobolski-blue.svg?style=flat)](http://twitter.com/piotrtobolski)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyInvocation.svg?style=flat)](https://cocoapods.org/pods/SwiftyInvocation)
 [![License](https://img.shields.io/cocoapods/l/SwiftyInvocation.svg?style=flat)](https://cocoapods.org/pods/SwiftyInvocation)
@@ -42,7 +42,7 @@ XCTAssertEqual(returnValue?.takeUnretainedValue(), "2")
 
 ## Requirements
 
-Swift 3, Objective-C runtime
+Swift 5, Objective-C runtime
 
 ## Installation
 
@@ -66,6 +66,7 @@ It is also available through [Swift Package Manager](https://www.swift.org/packa
 ## Author
 
 Piotr Tobolski, piotr.tobolski@me.com
+
 Insu Byeon, me@byeon.is
 
 ## License
