@@ -1,6 +1,6 @@
 # SwiftyInvocation
 
-[![CI Status](https://github.com/chorim/CombineViewController/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/chorim/CombineViewController/actions)
+[![CI Status](https://github.com/chorim/SwiftyInvocation/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/chorim/SwiftyInvocation/actions)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftyInvocation.svg)](https://cocoapods.org/pods/SwiftyInvocation)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://www.swift.org/package-manager/)
