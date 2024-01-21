@@ -1,8 +1,9 @@
 # SwiftyInvocation
 
-[![CI Status](http://img.shields.io/travis/piotr-tobolski/SwiftyInvocation.svg?style=flat)](https://travis-ci.org/piotr-tobolski/SwiftyInvocation)
+[![CI Status](https://github.com/chorim/CombineViewController/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/chorim/CombineViewController/actions)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/SwiftyInvocation.svg)](https://cocoapods.org/pods/SwiftyInvocation)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://www.swift.org/package-manager/)
 [![Twitter](https://img.shields.io/badge/twitter-@piotrtobolski-blue.svg?style=flat)](http://twitter.com/piotrtobolski)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyInvocation.svg?style=flat)](https://cocoapods.org/pods/SwiftyInvocation)
 [![License](https://img.shields.io/cocoapods/l/SwiftyInvocation.svg?style=flat)](https://cocoapods.org/pods/SwiftyInvocation)
@@ -57,9 +58,15 @@ It is also available through [Carthage](https://github.com/Carthage/Carthage):
 github "piotr-tobolski/SwiftyInvocation" ~> 0.1.0
 ```
 
+It is also available through [Swift Package Manager](https://www.swift.org/package-manager/):
+```swift
+.package(url: "https://github.com/chorim/SwiftyInvocation.git", branch: "master")
+```
+
 ## Author
 
 Piotr Tobolski, piotr.tobolski@me.com
+Insu Byeon, me@byeon.is
 
 ## License
 
