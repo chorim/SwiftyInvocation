@@ -7,7 +7,9 @@
 //
 
 import ObjectiveC
+#if canImport(SwiftyInvocationObjC)
 @_exported import SwiftyInvocationObjC
+#endif
 
 enum SwiftyInvocationError: Error {
     case noMethod
